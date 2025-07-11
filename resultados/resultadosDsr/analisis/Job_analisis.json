@@ -1,0 +1,402 @@
+{
+  "ruta_imagen": "images/Job.jpeg",
+  "timestamp": "2025-07-11T05:31:29.727271",
+  "estructuras": [
+    {
+      "tipo": "TITLE",
+      "bbox": [
+        253,
+        86,
+        888,
+        121
+      ],
+      "texto": "EMPLOYMENT / JOB APPLICATION",
+      "num_palabras": 4
+    },
+    {
+      "tipo": "HEADER",
+      "bbox": [
+        82,
+        150,
+        1057,
+        193
+      ],
+      "texto": "PERSONAL INFORMATION",
+      "num_palabras": 2
+    },
+    {
+      "tipo": "TEXT",
+      "bbox": [
+        85,
+        241,
+        1049,
+        266
+      ],
+      "texto": "FULL NAME:\nDATE:\ninet\nMido\n- net",
+      "num_palabras": 7
+    },
+    {
+      "tipo": "TEXT",
+      "bbox": [
+        394,
+        268,
+        497,
+        283
+      ],
+      "texto": "",
+      "num_palabras": 0
+    },
+    {
+      "tipo": "TEXT",
+      "bbox": [
+        82,
+        308,
+        209,
+        329
+      ],
+      "texto": "-\nADDRES",
+      "num_palabras": 2
+    },
+    {
+      "tipo": "TEXT",
+      "bbox": [
+        201,
+        332,
+        321,
+        353
+      ],
+      "texto": "- A",
+      "num_palabras": 2
+    },
+    {
+      "tipo": "TEXT",
+      "bbox": [
+        761,
+        334,
+        832,
+        353
+      ],
+      "texto": "",
+      "num_palabras": 0
+    },
+    {
+      "tipo": "TEXT",
+      "bbox": [
+        761,
+        401,
+        832,
+        419
+      ],
+      "texto": "",
+      "num_palabras": 0
+    },
+    {
+      "tipo": "TEXT",
+      "bbox": [
+        81,
+        441,
+        177,
+        465
+      ],
+      "texto": "- AA",
+      "num_palabras": 2
+    },
+    {
+      "tipo": "TEXT",
+      "bbox": [
+        164,
+        442,
+        756,
+        468
+      ],
+      "texto": "PHONE:",
+      "num_palabras": 1
+    },
+    {
+      "tipo": "TEXT",
+      "bbox": [
+        83,
+        497,
+        697,
+        521
+      ],
+      "texto": "SOCIAL SECURITY NUMBER (SSN):",
+      "num_palabras": 4
+    },
+    {
+      "tipo": "TEXT",
+      "bbox": [
+        84,
+        545,
+        289,
+        564
+      ],
+      "texto": "DATE\nAVAILABLE:",
+      "num_palabras": 2
+    },
+    {
+      "tipo": "TEXT",
+      "bbox": [
+        545,
+        545,
+        846,
+        568
+      ],
+      "texto": "DESIRED PAY: $ -",
+      "num_palabras": 4
+    },
+    {
+      "tipo": "TEXT",
+      "bbox": [
+        851,
+        545,
+        1025,
+        569
+      ],
+      "texto": "HOUR\nSALARY",
+      "num_palabras": 2
+    },
+    {
+      "tipo": "TEXT",
+      "bbox": [
+        82,
+        592,
+        1049,
+        617
+      ],
+      "texto": "POSITION APPLIED FOR:",
+      "num_palabras": 3
+    },
+    {
+      "tipo": "TEXT",
+      "bbox": [
+        85,
+        641,
+        736,
+        664
+      ],
+      "texto": "EMPLOYMENT DESIRED:\nFULL-TIME\nPART-TIME\nSEASONAL",
+      "num_palabras": 5
+    },
+    {
+      "tipo": "TEXT",
+      "bbox": [
+        83,
+        711,
+        1056,
+        755
+      ],
+      "texto": "EMPLOYMENT ELIGIBILITY",
+      "num_palabras": 2
+    },
+    {
+      "tipo": "TEXT",
+      "bbox": [
+        81,
+        801,
+        505,
+        825
+      ],
+      "texto": "ARE YoU A U.S. CITIZEN?\nYES\nNO'",
+      "num_palabras": 7
+    },
+    {
+      "tipo": "TEXT",
+      "bbox": [
+        81,
+        849,
+        776,
+        877
+      ],
+      "texto": "IF NO, ARE YOU ALLOWED TO WORK IN THE U.S.? a YES - NO",
+      "num_palabras": 14
+    },
+    {
+      "tipo": "TEXT",
+      "bbox": [
+        84,
+        902,
+        777,
+        925
+      ],
+      "texto": "HAVE YOU EVER WORKED FOR THIS EMPLOYER7 a YES\nNO",
+      "num_palabras": 10
+    },
+    {
+      "tipo": "TEXT",
+      "bbox": [
+        81,
+        945,
+        825,
+        972
+      ],
+      "texto": "IF YES, WRITE THE START AND END DATES:",
+      "num_palabras": 8
+    },
+    {
+      "tipo": "TEXT",
+      "bbox": [
+        83,
+        993,
+        784,
+        1017
+      ],
+      "texto": "HAVE YOU EVER BEEN CONVICTED OF A FELONY? - YES\nNO",
+      "num_palabras": 11
+    },
+    {
+      "tipo": "TEXT",
+      "bbox": [
+        81,
+        1041,
+        386,
+        1066
+      ],
+      "texto": "IF YES. PLEASE\nEXPLAIN:",
+      "num_palabras": 4
+    },
+    {
+      "tipo": "TEXT",
+      "bbox": [
+        82,
+        1110,
+        1057,
+        1153
+      ],
+      "texto": "EDUCATION",
+      "num_palabras": 1
+    },
+    {
+      "tipo": "TEXT",
+      "bbox": [
+        548,
+        1209,
+        705,
+        1230
+      ],
+      "texto": "CITY/S STATE",
+      "num_palabras": 2
+    },
+    {
+      "tipo": "TEXT",
+      "bbox": [
+        82,
+        1209,
+        703,
+        1233
+      ],
+      "texto": "HIGH SCHOOL:\nCITY/STATE",
+      "num_palabras": 3
+    },
+    {
+      "tipo": "TEXT",
+      "bbox": [
+        457,
+        1257,
+        503,
+        1275
+      ],
+      "texto": "",
+      "num_palabras": 0
+    },
+    {
+      "tipo": "TEXT",
+      "bbox": [
+        84,
+        1257,
+        161,
+        1276
+      ],
+      "texto": "",
+      "num_palabras": 0
+    },
+    {
+      "tipo": "TEXT",
+      "bbox": [
+        81,
+        1305,
+        761,
+        1329
+      ],
+      "texto": "GRADUATE? a YES a NO DIPLOMA:",
+      "num_palabras": 6
+    },
+    {
+      "tipo": "TEXT",
+      "bbox": [
+        84,
+        1353,
+        200,
+        1372
+      ],
+      "texto": "",
+      "num_palabras": 0
+    },
+    {
+      "tipo": "TEXT",
+      "bbox": [
+        124,
+        1353,
+        952,
+        1377
+      ],
+      "texto": "LLEGE:\nCITY/STATE:",
+      "num_palabras": 2
+    },
+    {
+      "tipo": "TEXT",
+      "bbox": [
+        456,
+        1401,
+        499,
+        1420
+      ],
+      "texto": "",
+      "num_palabras": 0
+    },
+    {
+      "tipo": "TEXT",
+      "bbox": [
+        81,
+        1401,
+        801,
+        1425
+      ],
+      "texto": "FROM:\nTO:",
+      "num_palabras": 2
+    },
+    {
+      "tipo": "TEXT",
+      "bbox": [
+        81,
+        1449,
+        457,
+        1473
+      ],
+      "texto": "GRADUATEZ -\nYES\nNO DEGREE:",
+      "num_palabras": 5
+    },
+    {
+      "tipo": "TEXT",
+      "bbox": [
+        91,
+        1500,
+        121,
+        1540
+      ],
+      "texto": "",
+      "num_palabras": 0
+    },
+    {
+      "tipo": "TEXT",
+      "bbox": [
+        977,
+        1513,
+        1089,
+        1537
+      ],
+      "texto": "- . - 1\nI -",
+      "num_palabras": 6
+    }
+  ]
+}

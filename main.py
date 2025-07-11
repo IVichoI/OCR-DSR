@@ -69,7 +69,7 @@ Ejemplos de uso:
         print("="*60)
         print("Análisis completado exitosamente")
         print("Método utilizado: LayoutLMv3")
-        print(f"Estructuras detectadas: {resultado['num_estructuras']}")
+        print(f"Estructuras detectadas: {len(resultado['estructuras'])}")
         
         if args.verbose:
             print(f"\nDetalle de estructuras:")
@@ -79,18 +79,20 @@ Ejemplos de uso:
             
             for i, estructura in enumerate(resultado['estructuras']):
                 print(f"{i+1}. {estructura['tipo']}")
-                print(f"   Dimensiones: {estructura['dimensiones_region'][0]}x{estructura['dimensiones_region'][1]} px")
-                print(f"   Texto: {estructura['num_caracteres']} caracteres, {estructura['num_palabras']} palabras")
-                if 'confianza_deteccion' in estructura:
-                    print(f"   Confianza: {estructura['confianza_deteccion']:.2f}")
+                # Calcular dimensiones desde bbox
+                bbox = estructura['bbox']
+                ancho = bbox[2] - bbox[0]
+                alto = bbox[3] - bbox[1]
+                print(f"   Dimensiones: {ancho}x{alto} px")
+                print(f"   Texto: {len(estructura['texto'])} caracteres, {estructura['num_palabras']} palabras")
                 
-                total_caracteres += estructura['num_caracteres']
+                total_caracteres += len(estructura['texto'])
                 total_palabras += estructura['num_palabras']
                 
                 # Mostrar muestra del texto si no es muy largo
-                if estructura['texto_extraido'] and len(estructura['texto_extraido']) > 0:
-                    muestra = estructura['texto_extraido'][:100]
-                    if len(estructura['texto_extraido']) > 100:
+                if estructura['texto'] and len(estructura['texto']) > 0:
+                    muestra = estructura['texto'][:100]
+                    if len(estructura['texto']) > 100:
                         muestra += "..."
                     print(f"   Muestra: {muestra}")
                 print()
@@ -104,9 +106,9 @@ Ejemplos de uso:
         
         archivos_generados = [
             f"analisis/{nombre_base}_analisis.json",
-            f"analisis/{nombre_base}_resumen.txt",
-            f"analisis/{nombre_base}_traduccion.txt",
-            f"imagenes/{nombre_base}_estructuras.png"
+            f"analisis/{nombre_base}_texto.txt",
+            f"imagenes/{nombre_base}_bloques.png",
+            f"imagenes/{nombre_base}_leyenda.png"
         ]
         
         print(f"\nArchivos generados:")

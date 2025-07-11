@@ -390,7 +390,7 @@ def main():
         resultado = detector.procesar_documento(ruta_imagen)
         
         if resultado:
-            print(f"\n✓ Análisis completado!")
+            print(f"\nAnálisis completado!")
             print(f"Estructuras: {len(resultado['estructuras'])}")
             
             # Mostrar resumen
@@ -403,6 +403,9 @@ def main():
         print("\nProceso interrumpido")
     except Exception as e:
         print(f"Error: {e}")
+
+# Alias para compatibilidad
+LayoutLMv3Detector = DetectorSimple
 
 if __name__ == "__main__":
     main()
